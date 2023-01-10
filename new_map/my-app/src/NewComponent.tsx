@@ -17,8 +17,8 @@ const NewComponent = (props: NewComponentType) => {
         <ul>
             {props.topCars.map((objectFromTopCarsArray, index) => {
                 return (
-                    <table>
-                        <tr>{objectFromTopCarsArray.manufacturer}
+                    <table key={index}>
+                        <tr>{++index}&nbsp;{objectFromTopCarsArray.manufacturer}
                             <th>{objectFromTopCarsArray.model}</th>
                         </tr>
                     </table>
