@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import { MouseEvent } from 'react';
 import NewComponent from "./NewComponent";
-
 
 
 function App() {
